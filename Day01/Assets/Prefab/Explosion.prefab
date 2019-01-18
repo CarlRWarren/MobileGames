@@ -44,9 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7967d610ee459d949acb26a8844c868b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_damage: 50
-  m_radius: 5
-  m_force: 10
+  m_damage: 10
+  m_radius: 2
+  m_force: 23
+  m_layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &872679366166634593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102,6 +105,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 199514137936353666, guid: 64891a0eb28db934898420d80ca07cb3,
+        type: 3}
+      propertyPath: m_Flip.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 199514137936353666, guid: 64891a0eb28db934898420d80ca07cb3,
+        type: 3}
+      propertyPath: m_Flip.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 198656289721292014, guid: 64891a0eb28db934898420d80ca07cb3,
         type: 3}
       propertyPath: UVModule.flipU
@@ -121,16 +134,6 @@ PrefabInstance:
         type: 3}
       propertyPath: prewarm
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 199514137936353666, guid: 64891a0eb28db934898420d80ca07cb3,
-        type: 3}
-      propertyPath: m_Flip.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 199514137936353666, guid: 64891a0eb28db934898420d80ca07cb3,
-        type: 3}
-      propertyPath: m_Flip.y
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 198263872644927810, guid: 64891a0eb28db934898420d80ca07cb3,
         type: 3}

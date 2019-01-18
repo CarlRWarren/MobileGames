@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject m_projectile = null;
     [SerializeField] Transform m_turret = null;
     [SerializeField] Transform m_muzzle = null;
+
+    [SerializeField] TextMeshProUGUI m_healthUI = null;
 
     void Start()
     {
@@ -36,12 +39,14 @@ public class Player : MonoBehaviour
 
         transform.position +=  velocity * Time.deltaTime;
 
-        if(Input.GetMouseButton(0))
+        if(Input.GetMouseButtonDown(0))
         {
-            Quaternion rotation = m_muzzle.rotation * Quaternion.AngleAxis(5.0f, Vector3.up);
+            Quaternion rotation = m_muzzle.rotation;// * Quaternion.AngleAxis(5.0f, Vector3.up);
             Instantiate(m_projectile, m_muzzle.position, rotation);
         }
-        m_turret.rotation *= Quaternion.AngleAxis(-Input.GetAxis("Mouse X") * m_turretRotateRate, Vector3.forward); 
+        m_turret.rotation *= Quaternion.AngleAxis(-Input.GetAxis("Mouse X") * m_turretRotateRate, Vector3.forward);
+        float health = GetComponent<Health>().health / 100.0f;
+        m_healthUI.text = "Health: " + health.ToString("P1");
     }
 
     void DestroyGameObject()

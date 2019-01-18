@@ -7,10 +7,11 @@ public class Explosion : MonoBehaviour
     [SerializeField] [Range(0.0f, 100.0f)] float m_damage = 100.0f;
     [SerializeField] [Range(0.0f, 100.0f)] float m_radius = 5.0f;
     [SerializeField] [Range(0.0f, 100.0f)] float m_force = 10.0f;
+    [SerializeField] LayerMask m_layerMask;
 
     void Start()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, m_radius);
+        Collider[] colliders = Physics.OverlapSphere(transform.position, m_radius, m_layerMask, QueryTriggerInteraction.Ignore);
         foreach(Collider collider in colliders)
         {
             Rigidbody rb = collider.GetComponent<Rigidbody>();
