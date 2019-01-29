@@ -37,9 +37,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0
-    - _Glossiness: 0.66343284
-    - _IllumMag: 1.0298507
-    - _Shininess: 0.7178234
+    - _Glossiness: 2
+    - _IllumMag: 0.43
+    - _Shininess: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.8358209, g: 1, b: 0.8358209, a: 1}

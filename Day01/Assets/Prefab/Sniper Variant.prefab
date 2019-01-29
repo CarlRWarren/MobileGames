@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &425410992944609557
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5729003184552050091, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_Name
+      value: Sniper Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.30400816
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95266944
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -35.397003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050088, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050085, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_points
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050085, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_explosion
+      value: 
+      objectReference: {fileID: 360392077826602309, guid: 78be56c110f140443aec63f476e2556b,
+        type: 3}
+    - target: {fileID: 5729003184552050087, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_rotationRate
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050087, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_firerate
+      value: 4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729003184552050087, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_projectile
+      value: 
+      objectReference: {fileID: 6748389146806931204, guid: 70cc79a3de9dc9d4587c779e0bd6707f,
+        type: 3}
+    - target: {fileID: 5729003184552050089, guid: bef36a43e5a614c4f96091fe27937e65,
+        type: 3}
+      propertyPath: m_Radius
+      value: 45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bef36a43e5a614c4f96091fe27937e65, type: 3}

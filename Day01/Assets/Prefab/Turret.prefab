@@ -127,7 +127,7 @@ MonoBehaviour:
   m_projectile: {fileID: 6748389146806931204, guid: 0cc326cbc49bc2941a79ba33f8a0739d,
     type: 3}
   m_fireSFX: {fileID: 5729003184552050086}
-  m_firerate: 1
+  m_firerate: 2.27
   m_rotationRate: 2.49
 --- !u!82 &5729003184552050086
 AudioSource:
@@ -139,7 +139,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4c623241958bf2c4a9b31f11657739da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ae55929411804d34d8f7446fefaaf351, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
